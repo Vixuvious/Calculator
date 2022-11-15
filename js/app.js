@@ -8,3 +8,12 @@ function clicker(e) {
   let numberA = document.getElementById("number1");
   numberA.innerText = Number(numberA.innerText) + 1;
 }
+
+// let buttonB = document.getElementById('button2');
+// buttonB.addEventListener('click', clicker2);
+
+// function clicker2(e) {
+//   console.log('button 2 was clicked');
+//   let numberB = document.getElementById("number2");
+//   numberB.innerText = Number(numberB.innerText) * 2;
+// }
