@@ -14,6 +14,6 @@ function clicker(e) {
 
 // function clicker2(e) {
 //   console.log('button 2 was clicked');
-//   let numberB = document.getElementById("number2");
-//   numberB.innerText = Number(numberB.innerText) * 2;
+//   let numberA = document.getElementById("number1");
+//   numberA.innerText = Number(numberA.innerText) * 2;
 // }
