@@ -1,12 +1,12 @@
 "use strict";
 
-let button = document.getElementById('button');
-button.addEventListener('click', clicker);
+let buttonA = document.getElementById('button1');
+buttonA.addEventListener('click', clicker);
 
 function clicker(e) {
   console.log('button was clicked');
-  let number = document.getElementById("number");
-  number.innerText = Number(number.innerText) + 1;
+  let numberA = document.getElementById("number1");
+  numberA.innerText = Number(numberA.innerText) + 1;
 }
 
 // let buttonB = document.getElementById('button2');
