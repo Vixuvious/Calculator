@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 section {
     display: flex;
     margin: auto;
@@ -6,6 +10,33 @@ section {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    border: 1px solid black;
+    border: 2px solid grey;
     margin-top: 1rem;
+    background-color: dark-grey;
+}
+
+h1 {
+  width: 100%;
+  text-align: right;
+  font-family: 'Didot';
+}
+
+#number1 {
+  border: 1px solid white;
+  color: pink;
+}
+
+button {
+  color: white;
+  background: black;
+}
+
+.numbers {
+  width: 30px;
+  height: 30px;
+}
+
+.operators {
+  width: 80px;
+  height: 40px;
 }
